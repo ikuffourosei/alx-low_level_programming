@@ -1,12 +1,12 @@
 #include <stdio.h>
+
 /*
- *main entry point is void
+ * main function is the entry point
  *
- * returns 0 always
+ * returns 0 always: success
  */
 int main(void)
-
 {
-	printf("hello World!\n");
+puts("\"Programming is like building a multilingual puzzle");
 	return(0);
 }
