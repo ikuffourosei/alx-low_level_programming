@@ -1,12 +1,12 @@
 #include <stdio.h>
+
 /*
- * This a main function printing a string
+ *main: entry point
  *
- * returns 0 always
+ * returns 0: success
  */
 
 int main(void)
 {
-	printf("Hello World!\n");
-	return(0);
+	printf("hello World!\n");
 }
