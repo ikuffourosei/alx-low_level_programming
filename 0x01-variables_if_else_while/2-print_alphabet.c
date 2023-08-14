@@ -3,7 +3,7 @@
 /**
  * main - entry point
  * Description: A C program that prints lowercase letters
- * For loop - Iterate an expression over a given
+ * While loop - Iterate an expression over a given
  * initialization till condition is false
  * Return: Always 0 (success)
  */
@@ -11,9 +11,12 @@ int main(void)
 {
 	char c;
 
-	for (c = 97; c <= 122; c++)
+	c = 'a';
+	while (c <= 'z')
 	{
 		putchar(c);
+		c++;
 	}
+	putchar('\n');
 	return (0);
 }
