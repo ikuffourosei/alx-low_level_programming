@@ -23,6 +23,6 @@ int main(void)
 		putchar(c);
 		c++;
 	}
-	putchar (c);
+	putchar(c);
 	return (0);
 }
