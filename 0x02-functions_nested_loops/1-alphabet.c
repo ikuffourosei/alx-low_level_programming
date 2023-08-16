@@ -3,9 +3,10 @@
 
 /**
  * void - function with no return value
- * print_alphabet - function that writes lowercase characters to STDOUT
- * with another prototype function called _putchar
- * to the STDOUT
+ * print_alphabet - prints lowercase characters followed by newline
+ * Description: print_alphabet() displays the lowercase
+ * alphabet in sequential order,starting from 'a' and ending with 'z',
+ * followed by a newline character
  * Return: no value
  */
 void print_alphabet(void)
@@ -18,4 +19,5 @@ void print_alphabet(void)
 		_putchar(lett);
 		lett++;
 	}
+	_putchar('\n');
 }
