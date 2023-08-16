@@ -1,4 +1,3 @@
-#include <unistd.h>
 #include "main.h"
 #include <ctype.h>
 
@@ -10,5 +9,14 @@
  */
 int _islower(int c)
 {
-	return (islower(c));
+	c = 'a';
+
+	if (c <= 'z')
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
 }
