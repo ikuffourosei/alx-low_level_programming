@@ -38,6 +38,31 @@ int main(void)
 		{
 			printf("%d ", n);
 		}
+		if (n == 100)
+		{
+			if (f == 0 && b == 0)
+                {
+                        char fizbuz[] = "FizzBuzz";
+
+                        printf("%s", fizbuz);
+                }
+                else if (b == 0)
+                {
+                        char buz[] = "Buzz";
+
+                        printf("%s", buz);
+                }
+                else if (f == 0)
+                {
+                        char fiz[] = "Fizz";
+
+                        printf("%s", fiz);
+                }
+                else
+                {
+                        printf("%d", n);
+                }
+		}
 		n++;
 	}
 	printf("\n");
