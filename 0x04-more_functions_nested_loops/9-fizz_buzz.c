@@ -16,11 +16,11 @@ int main(void)
 
 		f = n % 3;
 		b = n % 5;
-		if (f == 0)
+		if (f == 0 && b == 0)
 		{
-			char fiz[] = "Fizz";
+			char fizbuz[] = "FizzBuzz";
 
-			printf("%s ", fiz);
+			printf("%s ", fizbuz);
 		}
 		else if (b == 0)
 		{
@@ -28,11 +28,11 @@ int main(void)
 
 			printf("%s ", buz);
 		}
-		else if (f == 0 && b == 0)
+		else if (f == 0)
 		{
-			char fizbuz[] = "FizzBuzz";
+			char fiz[] = "Fizz";
 
-			printf("%s ", fizbuz);
+			printf("%s ", fiz);
 		}
 		else
 		{
