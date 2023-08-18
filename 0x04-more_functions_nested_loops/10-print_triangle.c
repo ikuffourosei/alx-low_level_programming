@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_traingle - prints traingle
+ * print_triangle - prints traingle
  * @size: parameter to be checked
  */
 void print_triangle(int size)
