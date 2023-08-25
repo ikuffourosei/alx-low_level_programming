@@ -4,7 +4,8 @@
 
 /**
  * cap_string - capitalizes all strings
- * @c: string to be capitalized
+ * is_separator - checks for character separators
+ * @c: character to be checked
  * Return: str
  */
 
@@ -12,20 +13,22 @@ bool is_separator(char c)
 {
 	int i;
 	char separators[] = " \t\n,;.!?\"(){}";
+
 	for (i = 0; separators[i] != '\0'; i++)
 	{
 		if (c == separators[i])
 		{
-			return true;
+			return (true);
 		}
 	}
-	return false;
+	return (false);
 }
 
 char *cap_string(char *str)
 {
 	int i;
 	bool new_word = true;
+
 	for (i = 0; str[i] != '\0'; i++)
 	{
 		if (is_separator(str[i]))
@@ -42,5 +45,5 @@ char *cap_string(char *str)
 			new_word = false;
 		}
 	}
-	return str;
+	return (str);
 }
