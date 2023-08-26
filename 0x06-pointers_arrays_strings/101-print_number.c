@@ -19,16 +19,17 @@ void print_number(int n)
 		_putchar('-');
 		n = -n;
 	}
-	
+
 	while (temp > 9)
 	{
 		divisor *= 10;
 		temp /= 10;
 	}
-	
+
 	while (divisor != 0)
 	{
 		int digit = n / divisor;
+
 		_putchar('0' + digit);
 		n -= digit * divisor;
 		divisor /= 10;
