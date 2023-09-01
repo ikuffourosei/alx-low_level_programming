@@ -1,7 +1,7 @@
 #include "main.h"
 #include <string.h>
 /**
- * palindrome_func - determines if a string is a palindrome or not
+ * is_palindrome_func - determines if a string is a palindrome or not
  * @s: string
  * @l: left hand side
  * @r: right hand side
