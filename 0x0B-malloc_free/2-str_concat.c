@@ -15,10 +15,6 @@ char *str_concat(char *s1, char *s2)
 	char *sc;
 	unsigned int i;
 
-	if (s1 == NULL && s2 == NULL)
-	{
-		return ("");
-	}
 	if (s1 == NULL)
 	{
 		s1 = "";
@@ -34,13 +30,7 @@ char *str_concat(char *s1, char *s2)
 	{
 		return (NULL);
 	}
-	if (s1 != NULL)
-	{
-		strcpy(sc, s1);
-	}
-	if (s2 != NULL)
-	{
-		strcat(sc, s2);
-	}
+	strcpy(sc, s1);
+	strcat(sc, s2);
 	return (sc);
 }
