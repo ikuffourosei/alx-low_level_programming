@@ -10,20 +10,19 @@
  */
 int main(int argc, char *argv[])
 {
-	int i, sum, num, j;
-	char *arr;
-	bool validInput;
+	int i, num, sum, j;
+	bool validInput =  true;
 
 	if (argc < 2)
 	{
 		printf("0\n");
-		return 0;
+		return (0);
 	}
 	sum = 0;
-	validInput = true;
-       	for (i = 1; i < argc; i++)
+	for (i = 1; i < argc; i++)
 	{
-		arr = argv[i];
+		char *arr = argv[i];
+
 		for (j = 0; arr[j] != '\0'; j++)
 		{
 			if (arr[j] < '0' || arr[j] > '9')
