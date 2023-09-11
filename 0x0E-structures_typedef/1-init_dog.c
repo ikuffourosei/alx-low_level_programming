@@ -4,7 +4,7 @@
 
 /**
  * init_dog - initialize dog
- * @d -  pointer
+ * @d:  pointer
  * @name: second member
  * @age: third member
  * @owner: fourth member
