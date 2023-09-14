@@ -27,7 +27,7 @@ int main(int argc, char *argv[])
 	if (fxn == NULL)
 	{
 		printf("Error\n");
-		exit(98);
+		exit(99);
 	}
 	results = fxn(num1, num2);
 	printf("%d\n", results);
