@@ -16,11 +16,6 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 
 	va_start(pnf, n);
 
-	if (separator == NULL)
-	{
-		va_end(pnf);
-		return;
-	}
 	for (i = 0; i < n; i++)
 	{
 		digit = va_arg(pnf, int);
