@@ -9,11 +9,12 @@ extern printf
 
 main:
     push rbp
-    mov rdi, format                ; Load the format string address
-    mov rsi, hello                 ; Load the address of the string
+    mov rdi, hello                 ; Load the address of the string
+    mov rsi, format                ; Load the address of the format string
     call printf                    ; Call printf
     add rsp, 8                     ; Clean up the stack
 
     mov rax, 60                    ; syscall: exit
     xor rdi, rdi                   ; status: 0
     syscall
+
