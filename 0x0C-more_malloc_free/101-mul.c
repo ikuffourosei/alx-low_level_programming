@@ -18,6 +18,7 @@ void print_error(void)
 	int i;
 
 	char error[] = "Error\n";
+
 	for (i = 0; error[i] != '\0'; i++)
 	{
 		_putchar(error[i]);
@@ -37,9 +38,8 @@ int main(int argc, char *argv[])
 	char *num1str;
 	char *num2str;
 	unsigned long num1;
-        unsigned long num2;
-
-        unsigned long result;
+	unsigned long num2;
+	unsigned long result;
 
 	if (argc != 3)
 	{
