@@ -7,3 +7,7 @@
 3-set_bits.c - a function that sets the value of a bit to 1 at a given index.
 4-clear_bits.c - a function that sets the value of a bit to 0 at a given index.
 5-flip_bits.ca function that returns the number of bits you would need to flip to get from one number to another.
+
+*ADVANCED TASKS*
+100-get_endiannes.c - a function that checks the endiannes
+101-password - Find the password for this program provided
