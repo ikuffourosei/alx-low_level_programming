@@ -34,7 +34,8 @@ void check_file(ssize_t check, char *file, int fdesf, int fdest)
 }
 
 /**
- * check_file_created - a function checks that file_to was created and/or can be written to
+ * check_file_created - a function checks that file_to was created and/or
+ * can be written to
  * @check: checks if True or False
  * @file: file to name
  * @fdesf: file descriptor of file from, or -1
