@@ -4,6 +4,7 @@
  * _strncpy - function that copies the first n characters to dest
  * @dest: destination of copied string
  * @src: string to be copied
+ * @n: number of characters
  * Return: copied string
  */
 char *_strncpy(char *dest, char *src, int n)
@@ -15,6 +16,6 @@ char *_strncpy(char *dest, char *src, int n)
 		dest[i] = src[i];
 		i++;
 	}
-	dest[n] = '\0';
+	dest[i] = '\0';
 	return (dest);
 }
