@@ -2,11 +2,11 @@
 #define LIST_H
 
 #include <stddef.h>
+#include <stdlib.h>
 #include <stdio.h>
-#include <stddargs.h>
-#include <unistd.h>
+#include <stdarg.h>
 #include <limits.h>
-#include <strings.h>
+#include <string.h>
 
 /**
  * struct dlistint_s - doubly linked list
